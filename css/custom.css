@@ -807,26 +807,34 @@ form
 /* ================================================================================================================
                         Media Query
 ================================================================================================================== */
+@media (max-width: 768px){
+    .rene {
+        font-size: 80px;
+    }
+}
 @media (max-width: 515px){
     .rene
     {
-        font-size: 70px;
+        font-size: 55px; /* Reduced from 70px */
     }
 }
 @media (max-width: 405px){
     #heading-text h3
     {
-        font-size: 45px;
+        font-size: 35px; /* Reduced from 45px */
+    }
+    .rene {
+        font-size: 42px; /* Reduced for smaller screens */
     }
 }
 @media (max-width: 350px){
     .rene
     {
-        font-size: 50px;
+        font-size: 35px;
     }
     .starting-text h2
     {
-        font-size: 35px;
+        font-size: 25px;
     }
 }
 /* 
